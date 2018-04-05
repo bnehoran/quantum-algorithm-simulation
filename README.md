@@ -2,13 +2,13 @@
 
 Barak N. - Independent Work Fall 2016: Simulation of Quantum Algorithms
 
-A quantum algorithm simulation library.
+A quantum algorithm simulation library especially designed for flexibility and efficiency on algorithms with few Hadamard operations.
 
 The code that makes up the quantum simulator is divided into separate modules with code for working with vectors, states, operators, and registers. Each module (in its separate file) contains the relevant definitions and functions as well as varying amounts of unit testing code to verify its desired functionality.
 
 ## Getting Started
 
-To compile and run tests, use:
+To compile and run the tests, use:
 ```
 $ make run_tests
 ```
